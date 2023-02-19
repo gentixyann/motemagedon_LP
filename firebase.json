@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public",
+    "target": "motemagedon",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
