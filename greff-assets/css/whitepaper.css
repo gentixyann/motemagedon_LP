@@ -1,0 +1,232 @@
+.whitepaper-section {
+  margin-bottom: 32px;
+}
+
+.first-view-image {
+  background-image: url('../images/whitepaper/whitepaper-sp.png');
+	/* 100svhからヘッダーとファーストビューコンテンツの高さを引く */
+  height: calc(100svh - 48px - 207px);
+  height: calc(100vh - 48px - 207px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap-first-view {
+  padding: 60px 24px;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.first-view-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.first-view-text {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.wrap-overview {
+  background-color: #f8f8f8;
+  padding: 32px 24px;
+  border-bottom: 1px solid #dcdcdc;
+  text-align: center;
+}
+
+.overview {
+  background-color: #f8f8f8;
+  text-align: center;
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+.overview-card {
+  background-color: #f8f8f8;
+  margin: 0 auto;
+}
+
+.overview-card-img {
+  margin-bottom: 24px;
+}
+
+.overview-card-img img {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+}
+
+.overview-card-heading {
+  margin-bottom: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333;
+}
+
+.overview-card-text {
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+
+.overview-card-link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 10px 32px;
+  background: linear-gradient(90.72deg, #5AD0FF 0%, #3D97EB 83.33%);
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 35px;
+  color: #fff;
+}
+
+.whitepaper {
+  padding-top: 32px;
+}
+
+.card {
+  padding: 32px 0 32px;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.card:first-child {
+  padding-top: 0;
+}
+
+.card:last-child {
+  border-bottom: 0;
+}
+
+.card-img {
+  margin-bottom: 24px;
+}
+
+.card-img img {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+}
+
+.card-heading {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.card-text {
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
+}
+
+.card-link {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 7px 17px 9px;
+  background-color: #3d97eb;
+  border-radius: 30px;
+  color: #fff;
+}
+
+/* タブレットサイズ以上 */
+@media screen and (min-width: 600px) {
+  .first-view-image {
+    height: 512px;
+    background-image: url('../images/whitepaper/whitepaper-pc.jpg');
+  }
+
+  .card {
+    padding-top: 0;
+    width: calc(100% / 2 - 22px / 2);
+  }
+
+  .whitepaper {
+    padding-top: 96px;
+  }
+
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 32px 22px;
+  }
+
+  .card:last-child {
+    border-bottom: 1px solid #dcdcdc;
+  }
+}
+
+/* PCサイズ以上 */
+@media screen and (min-width: 1025px) {
+  .whitepaper-section {
+    margin-bottom: 96px;
+  }
+
+  .wrap-first-view {
+    padding: 80px 24px;
+  }
+
+  .first-view-title {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+
+  .wrap-overview {
+    padding: 48px 0;
+  }
+
+  .overview {
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .overview-card {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+  }
+
+  .overview-card-img {
+    margin-bottom: 0;
+    width: 50%;
+  }
+
+  .overview-card-content {
+    width: 50%;
+    text-align: left;
+  }
+
+  .overview-card-heading {
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  .overview-card-text {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .overview-card-link {
+    line-height: 19px;
+    padding: 10.5px 40px;
+  }
+
+  .card {
+    width: calc(100% / 3 - 22px * 2 / 3);
+  }
+}

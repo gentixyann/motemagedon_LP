@@ -1,0 +1,67 @@
+.mb {
+    margin-bottom: 16px;
+}
+
+.worker-terms {
+    margin: 0 auto;
+    max-width: 840px;
+    margin-top: 80px;
+    padding: 24px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 160%;
+}
+
+.foreword {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #333333;
+    margin-bottom: 80px;
+}
+
+.clause {
+    margin-bottom: 56px;
+}
+
+.clause-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 16px;
+}
+
+.context {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.enactment p {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.copyright {
+    margin-top: 56px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+}
+
+@media screen and (min-width: 1025px) {
+    .title {
+        font-size: 32px;
+    }
+    
+}

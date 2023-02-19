@@ -1,0 +1,1183 @@
+.first-view-image {
+  background-image: url('../images/service/service-sp.png');
+	/* 100svhからヘッダーとファーストビューコンテンツの高さを引く */
+  height: calc(100vh - 48px - 203px);
+  height: calc(100svh - 48px - 203px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap-first-view {
+  padding: 32px 24px;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.first-view-title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.first-view-text {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* first-view以降のページサイドのpadding */
+.side-narrow {
+	max-width: 1088px;
+	margin: 0 auto;
+}
+
+.service-hr {
+  border: 1px #DCDCDC;
+}
+
+/* 概要 */
+
+.outline {
+  position: relative;
+  margin-top: 48px;
+}
+
+.outline-img {
+  width: 100vw;
+  height: 320px;
+  object-fit: cover;
+}
+
+.outline-text {
+  position: absolute;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   16px;
+  line-height: 160%;
+
+  bottom: 32px;
+  left: 32px;
+  color: #FFFFFF;
+}
+
+.outline-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.outline-worker {
+  text-align: center;
+}
+
+.outline-worker-header {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.outline-worker-header-img {
+  align-items: center;
+  margin-left: 50%;
+}
+
+.outline-workers-img {
+  width: 144px;
+  height: 232px;
+}
+
+.outline-matching-img {
+  width: 72px;
+  height: 124px;
+}
+
+.outline-worker-text {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   14px;
+  line-height: 160%;
+  color: #333333;
+}
+
+.outline-companies {
+  text-align: center;
+}
+
+.outline-companies-header {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.outline-worker-footer-text-1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   16px;
+  line-height: 160%;
+  color: #333333;
+}
+
+.outline-worker-footer-text-2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   14px;
+  line-height: 160%;
+  color: #333333;
+}
+
+.outline-companies-header-img {
+  align-items: center;
+  margin-right: 50%;
+}
+
+.outline-companies-img {
+  width: 144px;
+  height: 232px;
+}
+
+.outline-companies-text {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   14px;
+  line-height: 160%;
+  color: #333333;
+}
+
+.outline-companies-footer-text-1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   16px;
+  line-height: 160%;
+  color: #333333;
+}
+
+.outline-companies-footer-text-2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   14px;
+  line-height: 160%;
+  color: #333333;
+}
+
+/* 特徴 */
+
+.feature {
+  margin-top: 40px;
+}
+
+.feature-title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   24px;
+  line-height: 40px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.feature-switch {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.feature-switch-title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   20px;
+  line-height: 160%;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.feature-switch-detail-line-two-col {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.feature-switch-detail-line-one-col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.feature-switch-detail-column {
+  max-width: 152px;
+  text-align: -webkit-center;
+}
+
+.feature-switch-detail-column-one {
+  max-width: 327px;
+  text-align: -webkit-center;
+}
+
+.feature-switch-detail-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+  margin-bottom: 16px;
+}
+
+.feature-switch-detail-icon-img {
+  width: 32px;
+  height: 32px;
+}
+
+.feature-switch-detail-icon-red-card {
+  width: 16px;
+  height: 24px;
+  background: #F0513E;
+  border-radius: 3px;
+}
+
+.feature-switch-detail-title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   14px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+.feature-switch-detail-body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   13px;
+  line-height: 24px;
+  color: #333333;
+}
+
+/* サポート */
+
+.support {
+  margin-top: 74px;
+}
+
+.support-icon {
+  text-align: center;
+}
+
+.support-title {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.support-picture-box {
+  display: flex;
+  justify-content: center;
+}
+
+.support-picture {
+  position: relative;
+  max-width: 375px;
+  max-height: 480px;
+}
+
+.support-picture-img {
+  max-width: 375px;
+  max-height: 480px;
+}
+
+.support-picture-title {
+  position: absolute;
+
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 327px;
+
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   20px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.support-picture-text {
+  position: absolute;
+
+  top: 112px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 327px;
+
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.support-staff-picture-box {
+  display: flex;
+  justify-content: center;
+}
+
+.support-staff-picture {
+  width: 375px;
+  height: 480px;
+  background: #FAFAFA;
+  text-align: center;
+  position: relative;
+}
+
+.support-staff-picture-img {
+  position: absolute;
+
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-radius: 12px 12px 12px 12px;
+}
+
+.support-staff-picture-title {
+  position: absolute;
+
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 327px;
+
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   20px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.support-staff-picture-text {
+  position: absolute;
+
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 327px;
+
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.support-transfer-agent-picture-box {
+  display: flex;
+  justify-content: center;
+}
+
+.support-transfer-agent-picture {
+  width: 375px;
+  height: 480px;
+  background: #3D97EB;
+  text-align: center;
+  position: relative;
+
+}
+
+.support-transfer-agent-picture-title {
+  position: absolute;
+
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 327px;
+
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.support-transfer-agent-picture-text {
+  position: absolute;
+
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 327px;
+
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.support-transfer-agent-picture-img {
+  position: absolute;
+
+  top: 192px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pricing {
+  margin-top: 72px;
+  text-align: center;
+}
+
+.pricing-icon {
+  margin-bottom: 24px;
+}
+
+.pricing-icon-img {
+  width: 56px;
+  height: 56px;
+}
+
+.pricing-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   20px;
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+
+.pricing-costs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.pricing-publication-fee {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   20px;
+  line-height: 40px;
+}
+
+.pricing-registration-fee {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   20px;
+  line-height: 40px;
+  margin-left: 60px;
+  margin-right: 48px;
+}
+
+.pricing-initial-cost {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   20px;
+  line-height: 40px;
+}
+
+.pricing-line-top-img {
+  vertical-align:middle;
+}
+
+.pricing-line-bottom-img {
+  vertical-align:middle;
+  margin-bottom: 16px;
+}
+
+.pricing-free {
+  color: #3D97EB;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+.pricing-text-1 {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   14px;
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+
+.pricing-text-2 {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+  
+.service-usage-fee {
+  background-color: #F3F9FF;
+  margin-bottom: 16px;
+}
+
+.service-usage-fee-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   16px;
+  line-height: 24px;
+  padding-top: 32px;
+  margin-bottom: 24px;
+}
+
+.service-usage-fee-formula {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.service-usage-fee-formula-part1 {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   20px;
+  line-height: 40px;
+}
+
+.service-usage-fee-formula-part2 {
+  color: #3D97EB;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   48px;
+  line-height: 40px;
+  margin-left: 8px;
+  margin-right: 4px;
+  padding-bottom: 6px;
+}
+
+.service-usage-fee-formula-part3 {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   20px;
+  line-height: 22px;
+}
+
+.service-usage-fee-proviso {
+  color: #F0513E;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   16px;
+  line-height: 40px;
+
+  padding-bottom: 32px;
+}
+
+.pricing-example {
+  background-color: #F8F8F8;
+}
+
+.pricing-example-title {
+  padding-top: 32px;
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.pricing-example-salary-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   16px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-salary-formula {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-salary-equal {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+  transform: rotate(90deg);
+}
+
+.pricing-example-salary-price {
+  color: #3D97EB;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+.pricing-example-service-usage-fee-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   16px;
+  line-height: 40px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-service-usage-fee-formula {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-service-usage-fee-equal {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+  transform: rotate(90deg);
+}
+
+.pricing-example-service-usage-fee-price {
+  color: #3D97EB;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+.pricing-example-billing-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   20px;
+  line-height: 24px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-billing-formula {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-example-billing-formula-part1-amount {
+  color: #3D97EB;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-billing-formula-part1-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-billing-formula-part2 {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   32px;
+  line-height: 40px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.pricing-example-billing-formula-part3-amount {
+  color: #3D97EB;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-billing-formula-part3-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-billing-equal {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+  transform: rotate(90deg);
+}
+
+.pricing-example-billing-price {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.pricing-example-billing-price-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.pricing-example-message {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   16px;
+  line-height: 160%;
+  padding-bottom: 32px;
+}
+
+.pricing-example-message-color {
+  color: #3D97EB;
+}
+
+.consult {
+  text-align: center;
+  margin-bottom: 96px;
+}
+
+.consult-title {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size:   24px;
+  line-height: 160%;
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+
+.consult-body {
+  color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size:   14px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
+.consult-contact {
+  color: #3D97EB;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size:   14px;
+  line-height: 22px;
+  margin-bottom: 36px;
+
+  background-image: url('../images/next.svg');
+	background-size: 8px 16px;
+	background-position: calc(50% + 55px) 50%;
+
+}
+
+.consult-picture-img {
+  width: 372;
+  height: 128px;
+}
+
+/* PCサイズ以上 */
+@media screen and (min-width: 1025px) {
+
+  .first-view-image {
+    height: 512px;
+    background-image: url('../images/service/service-pc.jpg');
+  }
+
+  .wrap-first-view {
+    padding: 64px 0;
+  }
+
+  .first-view-title {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+
+  .outline-text {
+    font-size:   20px;
+    bottom: 56px;
+    left: 56px;
+  }
+
+  .outline-worker-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .outline-worker-header-img {
+    align-items: center;
+    margin-left: 24px;
+  }
+  
+  .outline-companies-header {
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+  }
+
+  .outline-companies-header-img {
+    margin-right: unset;
+    margin-right: 24px;
+  }
+
+  .outline-companies-text {
+    font-size:   20px;
+  }
+
+  .outline-worker-text {
+    font-size:   20px;
+    line-height: 160%;
+  }
+
+  .outline-workers-img {
+    width: 424px;
+    height: 216px;
+  }
+  
+  .outline-matching-img {
+    width: 176px;
+    height: 156px;
+  }
+  
+  .outline-companies-img {
+    width: 424px;
+    height: 216px;
+  }
+
+  .outline-worker-footer-text-1 {
+    font-size:   24px;
+  }
+
+  .outline-worker-footer-text-2 {
+    font-size:   20px;
+  }
+
+  .outline-companies-footer-text-1 {
+    font-size:   24px;
+  }
+
+  .outline-companies-footer-text-2 {
+    font-size:   20px;
+  }
+
+  .outline-bottom {
+    margin-bottom: 96px;
+  }
+
+  .feature-title {
+    font-size:   32px;
+    line-height: 160%;
+  }
+  
+  .feature {
+    margin-top: 96px;
+  }
+
+  .feature-title {
+    margin-bottom: 32px;
+  }
+
+  .feature-switch-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .feature-switch-title {
+    font-size: 24px;
+    margin-bottom: 56px;
+  }
+
+  .feature-switch-detail-icon {
+    width: 56px;
+    height: 56px;
+  }
+  
+  .feature-switch-detail-icon-img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .feature-switch-detail-icon-red-card {
+    width: 20px;
+    height: 30px;
+  }
+  
+
+  .feature-switch-detail-line-three-col {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  .feature-switch-detail-line-two-col {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+  }
+
+  .feature-switch-detail-column {
+    max-width: 312px;
+  }
+
+  .feature-switch-detail-title {
+    font-size:   20px;
+    line-height: 40px;
+  }
+
+  .feature-switch-detail-body {
+    font-size:   14px;
+  }
+
+  .support-icon-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 32px;
+  }
+
+  .support-title {
+    font-size:   24px;
+    line-height: 160%;
+    margin-bottom: 56px;
+  }
+
+  .support-pictures {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .support-picture-img {
+    max-width: 348px;
+    max-height: 480px;
+  }
+
+  .support-staff-picture {
+    max-width: 348px;
+    max-height: 480px;
+  }
+
+  .support-staff-picture-title {
+    line-height: 40px;
+  }
+
+  .pricing-icon-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .pricing-title {
+    font-size:   24px;
+  }
+
+  .pricing-text-2 {
+    font-size:   24px;
+    margin-bottom: 56px;
+  }
+
+  .service-usage-fee-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+  }
+
+  .service-usage-fee-title {
+    display: flex;
+    align-items: center;
+    padding-top: unset;
+    font-size:   24px;
+    line-height: 40px;
+  }
+
+  .service-usage-fee-formula-part1 {
+    font-size:   24px;
+    line-height: 40px;
+  }
+
+  .service-usage-fee-formula-part2 {
+    font-size:   56px;
+    line-height: 40px;
+  }
+
+  .service-usage-fee-formula-part3 {
+    font-size:   24px;
+    line-height: 22px;
+  }
+
+  .service-usage-fee-proviso {
+    font-size:   20px;
+    line-height: 40px;
+  }
+
+  .pricing-example-title {
+    font-size:   20px;
+    line-height: 24px;
+  }
+
+  .pricing-example-salary {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .pricing-example-salary-title {
+    font-size:   20px;
+    line-height: 24px;
+    margin-top:  10px;
+  }
+
+  .pricing-example-salary-formula {
+    margin-left: 8px;
+  }
+
+  .pricing-example-salary-equal {
+    margin-left: 8px;
+    margin-right: 8px;
+    transform: unset;
+  }
+
+  .pricing-example-salary-price {
+    margin-right: 252px;
+  }
+
+  .pricing-example-service-usage-fee {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 56px;
+  }
+
+  .pricing-example-service-usage-fee-title {
+    font-size:   20px;
+    line-height: 24px;
+    margin-top:  10px;
+  }
+
+  .pricing-example-service-usage-fee-formula {
+    margin-left: 31px;
+  }
+  
+  .pricing-example-service-usage-fee-equal {
+    margin-left: 44px;
+    margin-right: 8px;
+    transform: unset;
+  }
+
+  .pricing-example-service-usage-fee-price {
+    margin-right: 252px;
+  }
+
+  .pricing-example-billing-price-title {
+    font-size:   24px;
+    margin-bottom: 28px;
+  }
+
+  .pricing-example-billing {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 56px;
+  }
+
+  .pricing-example-billing-formula-part1-amount {
+    font-size:   40px;
+    margin-bottom: 24px;
+  }
+
+  .pricing-example-billing-formula-part2 {
+    font-size:   40px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .pricing-example-billing-formula-part3-amount {
+    font-size:   40px;
+    margin-bottom: 24px;
+  }
+
+  .pricing-example-billing-equal {
+    margin-left: 16px;
+    margin-right: 16px;
+    transform: unset;
+  }
+
+  .pricing-example-billing-price {
+    font-size:   40px;
+    margin-right: 185px;
+    margin-bottom: 24px;
+  }
+
+  .pricing-example-billing-price-title-2 {
+    margin-left: 24px;
+    text-align: left;
+  }
+
+  .pricing-example-message {
+    font-size:   20px;
+    line-height: 24px;
+  }
+
+  .consult {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 136px;
+  }
+
+  .consult-title {
+    font-size:   32px;
+    line-height: 160%;
+  }
+
+  .consult-contact {
+    background-size: 8px 16px;
+  }
+
+  .consult-picture-img {
+    width: 630px;
+    height: 342px;
+  }  
+  
+}

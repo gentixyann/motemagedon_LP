@@ -1,0 +1,465 @@
+
+.first-view-image {
+	margin-top: 30px;
+}
+.first-view-image img {
+	margin-bottom: 30px;
+	width: 300px;
+}
+.first-view-image .dl {
+	margin-top: 32px;
+	text-align: center;
+}
+.first-view-image .dl a:first-child img {
+	width: 107px;
+	padding-right: 4px;
+}
+.first-view-image .dl a:last-child img {
+	width: 129px;
+}
+.dl {
+	display: flex;
+	justify-content: space-around;
+}
+.dl .apple {
+	width: 100px;
+}
+.dl .google {
+	width: 125px;
+}
+.dl img {
+	width: 100%;
+}
+
+.wrap-first-text {
+	padding: 56px 24px 0 24px;
+	text-align: center;
+}
+.first-text {
+	font-size: 24px;
+	line-height: 38.4px;
+	font-weight: 700;
+}
+.first-text2 {
+	padding-top: 24px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.first-text-sub {
+	display: flex;
+	/*justify-content: space-between;*/
+	justify-content: center;
+	gap: 0 20px;
+	
+	margin-top: 40px;
+	font-size: 12px;
+	line-height: 19.2px;
+	font-weight: 500;
+}
+.first-text-sub div {
+	max-width: 96px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #dcdcdc;
+	margin-bottom: 96px;
+}
+
+.first-text-sub p {
+	margin: 16px 0;
+}
+
+.wrap-workers8 {
+	position: relative;
+	margin-bottom: 48px;
+}
+.wrap-workers8 img {
+	/*position: absolute;*/
+	width: 100%;
+}
+.wrap-workers8 p {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+}
+.wrap-workers8 .box1 {
+	width: 217px;
+	height: 40px;
+	position: absolute;
+	top: 136px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: rgba(61,151,235,0.8); /* 文字色透過を防ぐためopacityは使わない  */
+	/* 上下左右中央揃え  */
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrap-workers8 .box2 {
+	width: 149px;
+	height: 40px;
+	position: absolute;
+	top: 198px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: rgba(61,151,235,0.8); /* 文字色透過を防ぐためopacityは使わない  */
+	/* 上下左右中央揃え  */
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrap-workers8 .box3 {
+	width: 189px;
+	height: 40px;
+	position: absolute;
+	top: 260px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: rgba(61,151,235,0.8); /* 文字色透過を防ぐためopacityは使わない  */
+	/* 上下左右中央揃え  */
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrap-workers8 .box4 {
+	width: 243px;
+	height: 40px;
+	position: absolute;
+	top: 322px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: rgba(61,151,235,0.8); /* 文字色透過を防ぐためopacityは使わない  */
+	/* 上下左右中央揃え  */
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrap-workers8 span {
+	color: white;
+	font-size: 28px;
+	line-height: 24px;
+	font-weight: 700;
+	padding-top: 100px;
+}
+
+.border-box {
+	margin: 0 24px 48px 24px;
+	text-align: center;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.wrap-how-to-use {
+	margin: 0 0 48px 0;
+	display: flex;
+	flex-flow: column;
+}
+.wrap-how-to-use h2 {
+	margin: 0 auto;
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #333333;
+}
+.wrap-how-to-use .intro {
+	margin: 0 auto;
+	margin-top: 24px;
+	margin-bottom: 32px;
+	font-size: 16px;
+	line-height: 25.6px;
+	font-weight: 500;
+	color: #333333;
+}
+.wrap-how-to-use .wrap-capture {
+	margin: 0 auto;
+	margin-bottom: 26px;
+	display: flex;
+	/*align-items: center;*/
+}
+.wrap-how-to-use .wrap-capture .capture {
+	text-align: center;
+}
+.wrap-how-to-use .wrap-capture .color-text {
+	font-size: 14px;
+	line-height: 24.4px;
+	font-weight: 700;
+	color: #3D97EB;
+}
+.wrap-how-to-use .wrap-capture .normal-text {
+	font-size: 14px;
+	line-height: 24.4px;
+	font-weight: 700;
+	color: #333333;
+	margin-bottom: 24px;
+}
+.wrap-how-to-use .arrow-box {
+	text-align: center;
+	margin-bottom: 24px;
+}
+.wrap-how-to-use .exp {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 24px;
+	font-size: 14px;
+	line-height: 24.4px;
+	font-weight: 700;
+	color: #333333;
+}
+
+.wrap-suggest {
+	position: relative;
+	margin: 0 24px;
+	margin-bottom: 64px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background-color: #F8F8F8;
+	height: 368px;
+}
+.wrap-suggest .under{
+	max-width: 327px;
+	position: absolute;
+	top: 320px;
+}
+.wrap-suggest .title {
+	margin-top: 45px;
+	font-size: 24px;
+	line-height: 150%;
+	font-weight: 700;
+	color: #333333;
+	text-align: center;
+}
+.wrap-suggest .intro {
+	margin-top: 22px;
+	font-size: 16px;
+	line-height: 25.6px;
+	font-weight: 500;
+	color: #333333;
+	text-align: center;
+}
+.wrap-suggest .dl {
+	margin-top: 30px;
+	text-align: center;
+}
+.wrap-suggest .dl img:first-child {
+	padding-right: 4px;
+}
+
+.wrap-suggest .dl a:first-child img {
+	width: 107px;
+}
+.wrap-suggest .dl a:last-child img {
+	width: 129px;
+}
+
+/* PCサイズ以上 */
+@media screen and (min-width: 1025px) {
+	.first-view-image .title1 {
+		padding-top: 184px;
+		font-size: 36px;
+		line-height: 144%;
+		font-weight: 700;
+	}
+
+	.wrap-first-text {
+		padding-top: 96px;
+	}
+	.first-text {
+		font-size: 32px;
+		line-height: 160%;
+		font-weight: 700;
+	}
+	.first-text2 {
+		padding-top: 24px;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 400;
+	}
+
+	.first-text-sub {
+		display: flex;
+		justify-content: center;
+		gap: 0 40px;
+		margin-top: 80px;
+		
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 160%;
+	}
+	.first-text-sub img {
+		width: 56px;
+	}
+	.first-text-sub p {
+		margin: 32px 0;
+	}
+	
+	.first-text-sub div {
+		max-width: 280px;
+		width: 280px;
+		padding-bottom: 16px;
+		border-bottom: 1px solid #dcdcdc;
+		margin-bottom: 96px;
+	}
+
+
+	.wrap-workers8 {
+		/*position: relative;*/
+		margin-bottom: 96px;
+		text-align: center;
+	}
+	.wrap-workers8 img {
+		width: 1088px;
+	}
+	.wrap-workers8 .box1 {
+		width: 450px;
+		height: 72px;
+		position: absolute;
+		top: 120px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		background-color: rgba(61,151,235,0.8); /* 文字色透過を防ぐためopacityは使わない  */
+		/* 上下左右中央揃え  */
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.wrap-workers8 .box2 {
+		width: 534px;
+		height: 72px;
+		position: absolute;
+		top: 215px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		background-color: rgba(61,151,235,0.8); /* 文字色透過を防ぐためopacityは使わない  */
+		/* 上下左右中央揃え  */
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.wrap-workers8 span {
+		color: white;
+		font-size: 36px;
+		line-height: 24px;
+		font-weight: 700;
+	}
+
+
+	.border-box {
+		margin: 0 auto;
+		width: 1088px;
+		text-align: center;
+		border-bottom: 1px solid #dcdcdc;
+	}
+
+
+
+	.wrap-how-to-use {
+		margin: 0 auto;
+		text-align: center;
+		display: block;
+		width: 1088px;
+	}
+	.wrap-how-to-use h2 {
+		margin: 0 auto;
+		margin-top: 96px;
+		font-size: 32px;
+		line-height: 160%;
+	}
+	.wrap-how-to-use .intro {
+		margin: 0 auto;
+		margin-top: 24px;
+		margin-bottom: 32px;
+	}
+	.wrap-how-to-use #steps {
+		margin-top: 56px;
+		margin-bottom: 96px;
+		display: flex;
+		gap: 0 10px;
+	}
+	.wrap-how-to-use .step {
+		width: 176px;
+	}
+	.wrap-how-to-use .step .capture .color-text {
+		font-size: 20px;
+		line-height: 160%;
+		font-weight: 700;
+		color: #3D97EB;
+	}
+	.wrap-how-to-use .step .capture .normal-text {
+		font-size: 20px;
+		line-height: 160%;
+		font-weight: 700;
+		color: #333333;
+		margin-bottom: 24px;
+	}
+	.wrap-how-to-use .step-arrow {
+		margin-top: 15px;
+		width: 32px;
+	}
+	.wrap-how-to-use .step-matching {
+		width: 176px;
+	}
+	.wrap-how-to-use .step-matching .text {
+		margin-top: 15px;
+		font-size: 20px;
+		line-height: 160%;
+		font-weight: 700;
+		color: #333333;
+		margin-bottom: 24px;
+	}
+	.wrap-how-to-use .step-matching img {
+		margin-top: 25px;
+	}
+
+
+	.wrap-suggest {
+		position: relative;
+		margin: 0 auto;
+		margin-bottom: 128px;
+
+		width: 1088px;
+		height: 560px;
+	}
+	.wrap-suggest .under{
+		max-width: 1088px;
+		position: absolute;
+		top: 400px;
+	}
+	.wrap-suggest .title {
+		margin-top: 96px;
+		font-size: 32px;
+		line-height: 160%;
+		font-weight: 700;
+		color: #333333;
+		text-align: center;
+	}
+	.wrap-suggest .intro {
+		margin-top: 32px;
+		font-size: 16px;
+		line-height: 160%;
+		font-weight: 500;
+		color: #333333;
+		text-align: center;
+	}
+	.wrap-suggest .dl {
+		margin-top: 40px;
+		text-align: center;
+	}
+	.wrap-suggest .dl img:first-child {
+		width: 107px;
+		padding-right: 13px;
+	}
+	.wrap-suggest .dl img:nth-child(2) {
+		width: 118px;
+	}
+
+
+/* タブレットサイズ以上2 */
+@media screen and (min-width: 1200px) {
+
+	.first-view-image .first-view-pos {
+		margin-left: 10%;
+	}
+
+}
+
+}

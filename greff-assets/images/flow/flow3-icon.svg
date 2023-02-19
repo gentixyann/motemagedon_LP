@@ -1,0 +1,17 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="2" width="24" height="34" rx="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="12" y="6" width="16" height="8" rx="1" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 36V44C12 45.1046 12.8954 46 14 46H16M28 36V44C28 45.1046 27.1046 46 26 46H20M16 46V36M16 46H20M20 46V36" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="13" y="18" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="13" y="24" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="13" y="30" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="19" y="18" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="19" y="24" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="19" y="30" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="25" y="18" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="25" y="24" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="25" y="30" width="2" height="2" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 8H35C35.5523 8 36 8.44772 36 9V29C36 29.5523 35.5523 30 35 30H32V8Z" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 28C44 28 44 32 40 32V24" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 14.0001H38C41.3137 14.0001 44 16.6864 44 20.0001V28.0001C44 28.0001 44 24.0001 40 24.0001C36 24.0001 36 24.0001 36 24.0001V14.0001Z" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
