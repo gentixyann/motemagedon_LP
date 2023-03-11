@@ -926,7 +926,6 @@ different-agency .column {
   .work-images {
     width: 100%;
     background-size: cover;
-    background-image: url('../images/first-view-bg.jpg');
     background-position: center;
     padding-bottom: 56px;
   }
